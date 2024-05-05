@@ -2,16 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-03T13:04:04 IST" name="Default suite" finished-at="2024-02-03T13:04:16 IST" duration-ms="11856">
+  <suite started-at="2024-03-09T00:31:27 IST" name="Default suite" finished-at="2024-03-09T00:31:44 IST" duration-ms="16217">
     <groups>
     </groups>
-    <test started-at="2024-02-03T13:04:04 IST" name="Default test" finished-at="2024-02-03T13:04:16 IST" duration-ms="11856">
-      <class name="com.Learning_TestNG.Learning_ExtentReport">
-        <test-method signature="loginText()[pri:0, instance:com.Learning_TestNG.Learning_ExtentReport@4802796d]" started-at="2024-02-03T13:04:04 IST" name="loginText" finished-at="2024-02-03T13:04:16 IST" duration-ms="11775" status="PASS">
+    <test started-at="2024-03-09T00:31:27 IST" name="Default test" finished-at="2024-03-09T00:31:44 IST" duration-ms="16217">
+      <class name="com.testScripts.TC001_SearchText">
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:com.testScripts.TC001_SearchText@6989da5e]" started-at="2024-03-09T00:31:27 IST" name="openBroswer" finished-at="2024-03-09T00:31:35 IST" duration-ms="7939" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginText -->
-      </class> <!-- com.Learning_TestNG.Learning_ExtentReport -->
+        </test-method> <!-- openBroswer -->
+        <test-method is-config="true" signature="LogintoDWS()[pri:0, instance:com.testScripts.TC001_SearchText@6989da5e]" started-at="2024-03-09T00:31:35 IST" name="LogintoDWS" finished-at="2024-03-09T00:31:38 IST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintoDWS -->
+        <test-method signature="searchTest()[pri:0, instance:com.testScripts.TC001_SearchText@6989da5e]" started-at="2024-03-09T00:31:38 IST" name="searchTest" finished-at="2024-03-09T00:31:42 IST" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="logoutFromDWS()[pri:0, instance:com.testScripts.TC001_SearchText@6989da5e]" started-at="2024-03-09T00:31:42 IST" name="logoutFromDWS" finished-at="2024-03-09T00:31:43 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromDWS -->
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:com.testScripts.TC001_SearchText@6989da5e]" started-at="2024-03-09T00:31:43 IST" name="closeBroswer" finished-at="2024-03-09T00:31:44 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- com.testScripts.TC001_SearchText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

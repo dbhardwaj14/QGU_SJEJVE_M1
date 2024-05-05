@@ -1,5 +1,6 @@
 package com.generic_Library;
 
+import java.lang.reflect.Method;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -10,13 +11,17 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.sun.org.apache.bcel.internal.classfile.Method;
+
 
 public class Base_Test_2 
 {
 public WebDriver driver;
 public static WebDriver sDriver;
+public ExtentReports report;
+public ExtentTest test;
+
 
 	@BeforeSuite
 	public void configureReport()

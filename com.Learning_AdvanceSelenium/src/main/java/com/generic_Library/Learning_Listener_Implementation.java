@@ -11,7 +11,6 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class Learning_Listener_Implementation implements ITestListener{
-	{
 		@Override
 		public void onTestFailure(ITestResult result)
 		{
@@ -21,7 +20,7 @@ public class Learning_Listener_Implementation implements ITestListener{
 			String name = result.getMethod().getMethodName();
 			TakesScreenshot ts = (TakesScreenshot) Base_Test_2.sDriver;
 			File src = ts.getScreenshotAs(OutputType.FILE);
-			File dest = File ("./src/test/resources/screenshots/"+ name + time+".png");
+			File dest = new File("./src/test/resources/screenshots/"+ name + time+".png");
 			
 			try
 			{
